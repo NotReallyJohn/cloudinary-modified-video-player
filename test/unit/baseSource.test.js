@@ -55,10 +55,10 @@ describe('base source tests', () => {
   it('Test query params', () => {
     let sourceDef = {
       cloudinaryConfig: cld,
-      queryParams: 'test'
+      queryParams: { test: 'good' }
     };
     let source = new BaseSource('sea_turtle', sourceDef).url();
     // eslint-disable-next-line no-unused-expressions
-    expect(source).toContain(objectToQuerystring('test'));
+    expect(source).toContain('test=good');
   });
 });
