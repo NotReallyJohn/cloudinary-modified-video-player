@@ -258,7 +258,8 @@ $icon-font-path: '../fonts' !default;
     }
 
     .vjs-progress-holder {
-      height: 0.25em;
+      height: 0.5em;
+      border-radius: 100px;
     }
     .vjs-progress-control:hover {
       .vjs-progress-holder {
@@ -272,7 +273,12 @@ $icon-font-path: '../fonts' !default;
 
     .vjs-play-progress {
       &::before {
-        top: -0.25em;
+        top: -0.6em;
+        font-size: 16px;
+        bg-color: #e8e8e9;
+        border-radius: 100px;
+        color: blue;
+        padding: 0.25em
       }
     }
 
