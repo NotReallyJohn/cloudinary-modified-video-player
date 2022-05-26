@@ -25,6 +25,7 @@ const playerColors = `
   .PLAYER-CLASS-PREFIX .vjs-load-progress,
   .PLAYER-CLASS-PREFIX .vjs-load-progress div {
     background: rgba(--accent-color, 0.2);
+    border-radius: 100px;
   }
 
   .PLAYER-CLASS-PREFIX .vjs-volume-level,
