@@ -10,7 +10,6 @@ yarn-error.log
 
 # project
 env.js
-dist/
 .DS_Store
 
 \.history/
