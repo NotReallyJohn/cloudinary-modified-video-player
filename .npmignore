@@ -1,4 +1,3 @@
-!dist/
 static/
 webpack/
 yarn.lock
