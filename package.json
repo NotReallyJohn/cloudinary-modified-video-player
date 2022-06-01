@@ -2,6 +2,7 @@
   "name": "cloudinary-video-player",
   "version": "1.9.1-edge.0",
   "description": "Cloudinary Video Player",
+  "precommit" : [ "build" ],
   "bundlewatch": {
     "files": [
       {
